@@ -1,2 +1,1 @@
 FROM httpd:2.4
-COPY ./path/to/your/httpd.conf /usr/local/apache2/conf/httpd.conf
