@@ -1,5 +1,6 @@
+version: '3'
 services:
-  myservice:
+  httpd:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile-httpd
