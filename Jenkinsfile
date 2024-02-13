@@ -10,3 +10,5 @@ pipeline {
                 }
             }
         }
+    } // Added a closing curly brace for the 'stages' block
+} // Added a closing curly brace for the 'pipeline' block
