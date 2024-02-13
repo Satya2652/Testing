@@ -1,2 +1,2 @@
 FROM ubuntu:14.04
-RUN apt intstall wget svn
+RUN apt install wget svn
