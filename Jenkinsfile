@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     // Build Docker images
-                    sh 'docker-compose -f docker-compose.yml build httpd'
+                    sh 'docker-compose -f docker-compose.yml build wget'
                 }
             }
         }
